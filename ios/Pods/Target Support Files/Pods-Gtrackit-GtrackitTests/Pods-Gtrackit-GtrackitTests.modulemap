@@ -1,0 +1,6 @@
+module Pods_Gtrackit_GtrackitTests {
+  umbrella header "Pods-Gtrackit-GtrackitTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

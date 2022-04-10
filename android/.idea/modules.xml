@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Gtrackit.iml" filepath="$PROJECT_DIR$/.idea/modules/Gtrackit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Gtrackit.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Gtrackit.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/307068395/Gtrackit.react-native-community_datetimepicker.iml" filepath="$PROJECT_DIR$/.idea/modules/307068395/Gtrackit.react-native-community_datetimepicker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1182322309/Gtrackit.react-native-community_masked-view.iml" filepath="$PROJECT_DIR$/.idea/modules/1182322309/Gtrackit.react-native-community_masked-view.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-245702999/Gtrackit.react-native-community_netinfo.iml" filepath="$PROJECT_DIR$/.idea/modules/-245702999/Gtrackit.react-native-community_netinfo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1184234055/Gtrackit.react-native-date-picker.iml" filepath="$PROJECT_DIR$/.idea/modules/-1184234055/Gtrackit.react-native-date-picker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1890326513/Gtrackit.react-native-device-info.iml" filepath="$PROJECT_DIR$/.idea/modules/1890326513/Gtrackit.react-native-device-info.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1278349995/Gtrackit.react-native-firebase_app.iml" filepath="$PROJECT_DIR$/.idea/modules/-1278349995/Gtrackit.react-native-firebase_app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1752225736/Gtrackit.react-native-firebase_messaging.iml" filepath="$PROJECT_DIR$/.idea/modules/-1752225736/Gtrackit.react-native-firebase_messaging.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1237710618/Gtrackit.react-native-geolocation-service.iml" filepath="$PROJECT_DIR$/.idea/modules/1237710618/Gtrackit.react-native-geolocation-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1965429234/Gtrackit.react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/1965429234/Gtrackit.react-native-gesture-handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1709586940/Gtrackit.react-native-linear-gradient.iml" filepath="$PROJECT_DIR$/.idea/modules/-1709586940/Gtrackit.react-native-linear-gradient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/43852065/Gtrackit.react-native-maps.iml" filepath="$PROJECT_DIR$/.idea/modules/43852065/Gtrackit.react-native-maps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1918636112/Gtrackit.react-native-permissions.iml" filepath="$PROJECT_DIR$/.idea/modules/-1918636112/Gtrackit.react-native-permissions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1402182890/Gtrackit.react-native-reanimated.iml" filepath="$PROJECT_DIR$/.idea/modules/1402182890/Gtrackit.react-native-reanimated.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-356747813/Gtrackit.react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/.idea/modules/-356747813/Gtrackit.react-native-safe-area-context.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/58547123/Gtrackit.react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/58547123/Gtrackit.react-native-screens.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-582579957/Gtrackit.react-native-share.iml" filepath="$PROJECT_DIR$/.idea/modules/-582579957/Gtrackit.react-native-share.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1386650224/Gtrackit.react-native-svg.iml" filepath="$PROJECT_DIR$/.idea/modules/-1386650224/Gtrackit.react-native-svg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-682510299/Gtrackit.react-native-webview.iml" filepath="$PROJECT_DIR$/.idea/modules/-682510299/Gtrackit.react-native-webview.iml" />
+    </modules>
+  </component>
+</project>

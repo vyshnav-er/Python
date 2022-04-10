@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1090200722250",
+    "firebase_url": "https://trans-dogfish-283411.firebaseio.com",
+    "project_id": "trans-dogfish-283411",
+    "storage_bucket": "trans-dogfish-283411.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1090200722250:android:0b0106e82e4a3a7a01bfb3",
+        "android_client_info": {
+          "package_name": "com.gtrackit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1090200722250-d8gesirfvp5nbhhu2c9njh3k8j7v1bgd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbUpGu2Fwvr6O2Jj7VOFsxHk6HpXUfFQc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1090200722250-d8gesirfvp5nbhhu2c9njh3k8j7v1bgd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
