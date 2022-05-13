@@ -143,3 +143,8 @@ dist
 
 #Auto generated
 .DS_Store
+
+.*
+!/.gitignore
+
+bin/
