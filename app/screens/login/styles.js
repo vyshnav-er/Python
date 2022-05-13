@@ -8,13 +8,15 @@ import AppStyles from '../../config/styles';
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: AppStyles.colors.COLOR_PRIMARY,
+    // backgroundColor: AppStyles.colors.COLOR_PRIMARY,
   },
-  imageContainer: {
-    height: moderateScale(150),
-    backgroundColor: 'white',
-    justifyContent: 'flex-end',
+  welcomeBox: {
+    flex:1,
+    width:'100%',
+    // backgroundColor: 'black',
+    justifyContent: 'center',
     alignItems: 'center',
+    top:moderateScale(-10)
   },
   errorText:{
     fontSize: moderateScale(12),
@@ -52,10 +54,10 @@ const styles = StyleSheet.create({
     //justifyContent:'space-around'
   },
   colorTextRight:{
-    fontSize: moderateScale(13),
+    fontSize: moderateScale(12),
     color: AppStyles.colors.COLOR_PRIMARY,
     textAlign: 'right',
-    fontFamily: 'Roboto-Regular',
+    fontFamily: 'Poppins-Medium',
     marginBottom:moderateScale(15)
   },
   colorTextUnderLine:{
@@ -68,8 +70,8 @@ const styles = StyleSheet.create({
   plainTextLeft:{
     fontSize: moderateScale(13),
     color: AppStyles.colors.COLOR_DARK_GREY,
-    textAlign: 'left',
-    fontFamily: 'Roboto-Regular',
+    textAlign: 'center',
+    fontFamily: 'Poppins-Regular',
   },
   dropDownRenderContainer:{
     borderBottomWidth: 0.75,

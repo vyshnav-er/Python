@@ -12,7 +12,7 @@ export default function api(path, params, method, token, apiRgn,isLegacyUrl = fa
       'API-KEY': 'zaeemkey1',
       'Content-Type': 'application/json',
       Authorization: 'Bearer ' + token,
-      'APP-VER': '5;1.0.2'
+      'APP-VER': '6;1.0.2'
     },
     method: method,
     ...(params && { body: JSON.stringify(params) }),
@@ -41,7 +41,7 @@ export default function api(path, params, method, token, apiRgn,isLegacyUrl = fa
       console.log("appVer && buildVer",appVer , buildVer);
       
       if (appVer && buildVer) {
-        if (buildVer > 5) {
+        if (buildVer > 6) {
 
           Alert.alert('GtrackIT', 'There is a new improved version available please update,thank you!', [
             {

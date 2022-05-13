@@ -4,25 +4,25 @@ import appStyles from '../config/styles';
 import metrics from '../config/metrics';
 // //Package
 import { scale, moderateScale } from 'react-native-size-matters';
+import LinearGradient from 'react-native-linear-gradient';
 
 export function LongButton(props) {
   return (
     <TouchableOpacity
       disabled={props.disabled}
-      activeOpacity={props.disabled ? 1 : 0.8}
-      style={[
-        styles.buttonTouchable,
-        {
-          backgroundColor: props.disabled ? 'grey' : props.color,
-          height: props.height,
-        },
-      ]}
+      // activeOpacity={props.disabled ? 1 : 0.8}
+      activeOpacity={1}
+      style={{width: '100%',zIndex:10}}
       onPress={() => {
         props.onPress();
       }}>
-      <Text numberOfLines={1} style={styles.buttonWhiteText}>
-        {props.Label}
-      </Text>
+      <LinearGradient
+        colors={props.disabled ? ['grey','grey'] : ['#144072', '#248ECD']}
+        style={{...styles.buttonTouchable}}>
+        <Text numberOfLines={1} style={styles.buttonWhiteText}>
+          {props.Label}
+        </Text>
+      </LinearGradient>
     </TouchableOpacity>
   );
 }
@@ -164,14 +164,14 @@ const styles = StyleSheet.create({
     //padding:moderateScale(3)
   },
   buttonTouchable: {
-    height: moderateScale(45),
+    height: moderateScale(40),
     width: '100%',
     zIndex: 2,
     justifyContent: 'center',
     alignItems: 'center',
     paddingHorizontal: moderateScale(15),
     // backgroundColor:'#bfbfbf',
-    borderRadius: moderateScale(0),
+    borderRadius: moderateScale(10),
   },
   buttonWhiteTouchable: {
     height: moderateScale(40),

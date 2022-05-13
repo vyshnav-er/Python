@@ -21,11 +21,11 @@ import Logo from '../../config/logo';
 import HeaderImage from '../../config/headerImage';
 class splash extends Component {
   componentDidMount = () => {
-    setTimeout(() => {
-      this.props.Login.isLogin
-        ? this.props.navigation.navigate('Home')
-        : this.props.navigation.navigate('Login');
-    }, 2000);
+    // setTimeout(() => {
+    //   this.props.Login.isLogin
+    //     ? this.props.navigation.navigate('Home')
+    //     : this.props.navigation.navigate('Login');
+    // }, 2000);
 
     const unsubscribe = NetInfo.addEventListener(state => {
       this.props.handleNetworkChange(state.isInternetReachable);
@@ -51,7 +51,7 @@ class splash extends Component {
               }}>
               <HeaderImage
                 height={moderateScale(255)}
-                width={metrics.SCREEN_WIDTH}
+                width={'100%'}
               />
             </View>
 
