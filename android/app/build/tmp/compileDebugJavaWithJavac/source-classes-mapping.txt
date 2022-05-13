@@ -1,0 +1,14 @@
+com/gtrackit/MainApplication.java
+ com.gtrackit.MainApplication
+ com.gtrackit.MainApplication$1
+com/gtrackit/BuildConfig.java
+ com.gtrackit.BuildConfig
+com/gtrackit/ReactNativeFlipper.java
+ com.gtrackit.ReactNativeFlipper
+ com.gtrackit.ReactNativeFlipper$1
+ com.gtrackit.ReactNativeFlipper$2
+ com.gtrackit.ReactNativeFlipper$2$1
+com/gtrackit/MainActivity.java
+ com.gtrackit.MainActivity
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList

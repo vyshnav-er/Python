@@ -1,0 +1,452 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.gtrackit"
+4    android:versionCode="3"
+5    android:versionName="1.0.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="30" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/vyshnavajayan/gtrackit_mobile_app/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/vyshnavajayan/gtrackit_mobile_app/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/vyshnavajayan/gtrackit_mobile_app/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/vyshnavajayan/gtrackit_mobile_app/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->/Users/vyshnavajayan/gtrackit_mobile_app/android/app/src/main/AndroidManifest.xml:5:5-81
+13-->/Users/vyshnavajayan/gtrackit_mobile_app/android/app/src/main/AndroidManifest.xml:5:22-78
+14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+14-->/Users/vyshnavajayan/gtrackit_mobile_app/android/app/src/main/AndroidManifest.xml:6:5-79
+14-->/Users/vyshnavajayan/gtrackit_mobile_app/android/app/src/main/AndroidManifest.xml:6:22-76
+15    <uses-permission android:name="android.permission.WAKE_LOCK" />
+15-->/Users/vyshnavajayan/gtrackit_mobile_app/android/app/src/main/AndroidManifest.xml:7:5-68
+15-->/Users/vyshnavajayan/gtrackit_mobile_app/android/app/src/main/AndroidManifest.xml:7:22-65
+16    <uses-permission android:name="android.permission.VIBRATE" />
+16-->/Users/vyshnavajayan/gtrackit_mobile_app/android/app/src/main/AndroidManifest.xml:8:5-66
+16-->/Users/vyshnavajayan/gtrackit_mobile_app/android/app/src/main/AndroidManifest.xml:8:22-63
+17    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+17-->/Users/vyshnavajayan/gtrackit_mobile_app/android/app/src/main/AndroidManifest.xml:9:5-80
+17-->/Users/vyshnavajayan/gtrackit_mobile_app/android/app/src/main/AndroidManifest.xml:9:22-78
+18    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+18-->[com.facebook.flipper:flipper:0.99.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/cf20047c9bc84510423e51744553403c/jetified-flipper-0.99.0/AndroidManifest.xml:16:5-76
+18-->[com.facebook.flipper:flipper:0.99.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/cf20047c9bc84510423e51744553403c/jetified-flipper-0.99.0/AndroidManifest.xml:16:22-73
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->[:react-native-community_netinfo] /Users/vyshnavajayan/gtrackit_mobile_app/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-79
+19-->[:react-native-community_netinfo] /Users/vyshnavajayan/gtrackit_mobile_app/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-76
+20    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+20-->[:react-native-share] /Users/vyshnavajayan/gtrackit_mobile_app/node_modules/react-native-share/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-81
+20-->[:react-native-share] /Users/vyshnavajayan/gtrackit_mobile_app/node_modules/react-native-share/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-78
+21    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+21-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/ab445c55110d91d70751e1b4a92873d9/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:26:5-110
+21-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/ab445c55110d91d70751e1b4a92873d9/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:26:22-107
+22    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+22-->[com.google.android.gms:play-services-iid:17.0.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/354fbd4beedddbee84fe9588f29e48fe/jetified-play-services-iid-17.0.0/AndroidManifest.xml:23:5-82
+22-->[com.google.android.gms:play-services-iid:17.0.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/354fbd4beedddbee84fe9588f29e48fe/jetified-play-services-iid-17.0.0/AndroidManifest.xml:23:22-79
+23
+24    <uses-feature
+24-->[com.google.android.gms:play-services-maps:17.0.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/674eadc56cb9edba2d7b62d82419ef6e/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+25        android:glEsVersion="0x00020000"
+25-->[com.google.android.gms:play-services-maps:17.0.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/674eadc56cb9edba2d7b62d82419ef6e/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+26        android:required="true" />
+26-->[com.google.android.gms:play-services-maps:17.0.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/674eadc56cb9edba2d7b62d82419ef6e/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+27
+28    <application
+28-->/Users/vyshnavajayan/gtrackit_mobile_app/android/app/src/main/AndroidManifest.xml:14:5-68:19
+29        android:name="com.gtrackit.MainApplication"
+29-->/Users/vyshnavajayan/gtrackit_mobile_app/android/app/src/main/AndroidManifest.xml:16:7-38
+30        android:allowBackup="false"
+30-->/Users/vyshnavajayan/gtrackit_mobile_app/android/app/src/main/AndroidManifest.xml:21:7-34
+31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+31-->[androidx.core:core:1.5.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/4a114986bc16f5d746dac58e7158a4a6/core-1.5.0/AndroidManifest.xml:24:18-86
+32        android:debuggable="true"
+33        android:icon="@mipmap/ic_launcher"
+33-->/Users/vyshnavajayan/gtrackit_mobile_app/android/app/src/main/AndroidManifest.xml:19:7-41
+34        android:label="@string/app_name"
+34-->/Users/vyshnavajayan/gtrackit_mobile_app/android/app/src/main/AndroidManifest.xml:18:7-39
+35        android:theme="@style/AppTheme"
+35-->/Users/vyshnavajayan/gtrackit_mobile_app/android/app/src/main/AndroidManifest.xml:23:7-38
+36        android:usesCleartextTraffic="true" > <!-- Change the value to true to enable pop-up for in foreground (remote-only, for local use ignoreInForeground) -->
+36-->/Users/vyshnavajayan/gtrackit_mobile_app/android/app/src/main/AndroidManifest.xml:20:7-42
+37        <meta-data
+37-->/Users/vyshnavajayan/gtrackit_mobile_app/android/app/src/main/AndroidManifest.xml:26:9-27:36
+38            android:name="com.dieam.reactnativepushnotification.notification_foreground"
+38-->/Users/vyshnavajayan/gtrackit_mobile_app/android/app/src/main/AndroidManifest.xml:26:21-97
+39            android:value="false" /> <!-- Change the resource name to your App's accent color - or any other color you want -->
+39-->/Users/vyshnavajayan/gtrackit_mobile_app/android/app/src/main/AndroidManifest.xml:27:13-34
+40        <meta-data
+40-->/Users/vyshnavajayan/gtrackit_mobile_app/android/app/src/main/AndroidManifest.xml:29:9-30:46
+41            android:name="com.dieam.reactnativepushnotification.notification_color"
+41-->/Users/vyshnavajayan/gtrackit_mobile_app/android/app/src/main/AndroidManifest.xml:29:21-92
+42            android:resource="@color/white" /> <!-- or @android:color/{name} to use a standard color -->
+42-->/Users/vyshnavajayan/gtrackit_mobile_app/android/app/src/main/AndroidManifest.xml:30:13-44
+43        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationActions" />
+43-->/Users/vyshnavajayan/gtrackit_mobile_app/android/app/src/main/AndroidManifest.xml:32:9-108
+43-->/Users/vyshnavajayan/gtrackit_mobile_app/android/app/src/main/AndroidManifest.xml:32:19-105
+44        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationPublisher" />
+44-->/Users/vyshnavajayan/gtrackit_mobile_app/android/app/src/main/AndroidManifest.xml:33:9-110
+44-->/Users/vyshnavajayan/gtrackit_mobile_app/android/app/src/main/AndroidManifest.xml:33:19-107
+45        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationBootEventReceiver" >
+45-->/Users/vyshnavajayan/gtrackit_mobile_app/android/app/src/main/AndroidManifest.xml:34:9-40:20
+45-->/Users/vyshnavajayan/gtrackit_mobile_app/android/app/src/main/AndroidManifest.xml:34:19-115
+46            <intent-filter>
+46-->/Users/vyshnavajayan/gtrackit_mobile_app/android/app/src/main/AndroidManifest.xml:35:13-39:29
+47                <action android:name="android.intent.action.BOOT_COMPLETED" />
+47-->/Users/vyshnavajayan/gtrackit_mobile_app/android/app/src/main/AndroidManifest.xml:36:17-79
+47-->/Users/vyshnavajayan/gtrackit_mobile_app/android/app/src/main/AndroidManifest.xml:36:25-76
+48                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+48-->/Users/vyshnavajayan/gtrackit_mobile_app/android/app/src/main/AndroidManifest.xml:37:17-82
+48-->/Users/vyshnavajayan/gtrackit_mobile_app/android/app/src/main/AndroidManifest.xml:37:25-79
+49                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+49-->/Users/vyshnavajayan/gtrackit_mobile_app/android/app/src/main/AndroidManifest.xml:38:17-81
+49-->/Users/vyshnavajayan/gtrackit_mobile_app/android/app/src/main/AndroidManifest.xml:38:25-79
+50            </intent-filter>
+51        </receiver>
+52
+53        <service
+53-->/Users/vyshnavajayan/gtrackit_mobile_app/android/app/src/main/AndroidManifest.xml:42:9-48:19
+54            android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationListenerService"
+54-->/Users/vyshnavajayan/gtrackit_mobile_app/android/app/src/main/AndroidManifest.xml:43:13-107
+55            android:exported="false" >
+55-->/Users/vyshnavajayan/gtrackit_mobile_app/android/app/src/main/AndroidManifest.xml:44:13-37
+56            <intent-filter>
+56-->/Users/vyshnavajayan/gtrackit_mobile_app/android/app/src/main/AndroidManifest.xml:45:13-47:29
+57                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+57-->/Users/vyshnavajayan/gtrackit_mobile_app/android/app/src/main/AndroidManifest.xml:46:17-78
+57-->/Users/vyshnavajayan/gtrackit_mobile_app/android/app/src/main/AndroidManifest.xml:46:25-75
+58            </intent-filter>
+59        </service>
+60
+61        <meta-data
+61-->/Users/vyshnavajayan/gtrackit_mobile_app/android/app/src/main/AndroidManifest.xml:49:9-51:70
+62            android:name="com.google.android.geo.API_KEY"
+62-->/Users/vyshnavajayan/gtrackit_mobile_app/android/app/src/main/AndroidManifest.xml:50:13-58
+63            android:value="AIzaSyApiH_mqSC1atsRH6cQJyXm8CfhTTfj6pM" />
+63-->/Users/vyshnavajayan/gtrackit_mobile_app/android/app/src/main/AndroidManifest.xml:51:13-68
+64        <!--
+65   Noushad = AIzaSyApiH_mqSC1atsRH6cQJyXm8CfhTTfj6pM
+66sinu AIzaSyBSk5VvDFZUOsJiRyinHo61MIiXcPHxxWw
+67        -->
+68        <uses-library
+68-->/Users/vyshnavajayan/gtrackit_mobile_app/android/app/src/main/AndroidManifest.xml:55:9-87
+69            android:name="org.apache.http.legacy"
+69-->/Users/vyshnavajayan/gtrackit_mobile_app/android/app/src/main/AndroidManifest.xml:55:23-60
+70            android:required="false" />
+70-->/Users/vyshnavajayan/gtrackit_mobile_app/android/app/src/main/AndroidManifest.xml:55:61-85
+71
+72        <activity
+72-->/Users/vyshnavajayan/gtrackit_mobile_app/android/app/src/main/AndroidManifest.xml:56:7-66:18
+73            android:name="com.gtrackit.MainActivity"
+73-->/Users/vyshnavajayan/gtrackit_mobile_app/android/app/src/main/AndroidManifest.xml:57:9-37
+74            android:label="@string/app_name"
+74-->/Users/vyshnavajayan/gtrackit_mobile_app/android/app/src/main/AndroidManifest.xml:59:9-41
+75            android:screenOrientation="portrait"
+75-->/Users/vyshnavajayan/gtrackit_mobile_app/android/app/src/main/AndroidManifest.xml:58:11-47
+76            android:windowSoftInputMode="adjustResize" >
+76-->/Users/vyshnavajayan/gtrackit_mobile_app/android/app/src/main/AndroidManifest.xml:60:9-51
+77            <intent-filter>
+77-->/Users/vyshnavajayan/gtrackit_mobile_app/android/app/src/main/AndroidManifest.xml:61:9-65:25
+78                <action android:name="android.intent.action.MAIN" />
+78-->/Users/vyshnavajayan/gtrackit_mobile_app/android/app/src/main/AndroidManifest.xml:62:13-65
+78-->/Users/vyshnavajayan/gtrackit_mobile_app/android/app/src/main/AndroidManifest.xml:62:21-62
+79
+80                <category android:name="android.intent.category.LAUNCHER" />
+80-->/Users/vyshnavajayan/gtrackit_mobile_app/android/app/src/main/AndroidManifest.xml:63:13-73
+80-->/Users/vyshnavajayan/gtrackit_mobile_app/android/app/src/main/AndroidManifest.xml:63:23-70
+81            </intent-filter>
+82        </activity>
+83        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+83-->/Users/vyshnavajayan/gtrackit_mobile_app/android/app/src/main/AndroidManifest.xml:67:7-84
+83-->/Users/vyshnavajayan/gtrackit_mobile_app/android/app/src/main/AndroidManifest.xml:67:17-81
+84
+85        <service android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService" />
+85-->[:react-native-firebase_messaging] /Users/vyshnavajayan/gtrackit_mobile_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-111
+85-->[:react-native-firebase_messaging] /Users/vyshnavajayan/gtrackit_mobile_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:18-108
+86        <service
+86-->[:react-native-firebase_messaging] /Users/vyshnavajayan/gtrackit_mobile_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-21:19
+87            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService"
+87-->[:react-native-firebase_messaging] /Users/vyshnavajayan/gtrackit_mobile_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-95
+88            android:exported="false" >
+88-->[:react-native-firebase_messaging] /Users/vyshnavajayan/gtrackit_mobile_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-37
+89            <intent-filter>
+89-->/Users/vyshnavajayan/gtrackit_mobile_app/android/app/src/main/AndroidManifest.xml:45:13-47:29
+90                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+90-->/Users/vyshnavajayan/gtrackit_mobile_app/android/app/src/main/AndroidManifest.xml:46:17-78
+90-->/Users/vyshnavajayan/gtrackit_mobile_app/android/app/src/main/AndroidManifest.xml:46:25-75
+91            </intent-filter>
+92        </service>
+93
+94        <receiver
+94-->[:react-native-firebase_messaging] /Users/vyshnavajayan/gtrackit_mobile_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:9-30:20
+95            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver"
+95-->[:react-native-firebase_messaging] /Users/vyshnavajayan/gtrackit_mobile_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-96
+96            android:exported="true"
+96-->[:react-native-firebase_messaging] /Users/vyshnavajayan/gtrackit_mobile_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-36
+97            android:permission="com.google.android.c2dm.permission.SEND" >
+97-->[:react-native-firebase_messaging] /Users/vyshnavajayan/gtrackit_mobile_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-73
+98            <intent-filter>
+98-->[:react-native-firebase_messaging] /Users/vyshnavajayan/gtrackit_mobile_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-29:29
+99                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+99-->[:react-native-firebase_messaging] /Users/vyshnavajayan/gtrackit_mobile_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:17-81
+99-->[:react-native-firebase_messaging] /Users/vyshnavajayan/gtrackit_mobile_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:25-78
+100            </intent-filter>
+101        </receiver>
+102
+103        <meta-data
+103-->[:react-native-firebase_messaging] /Users/vyshnavajayan/gtrackit_mobile_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:32:9-34:36
+104            android:name="firebase_messaging_auto_init_enabled"
+104-->[:react-native-firebase_messaging] /Users/vyshnavajayan/gtrackit_mobile_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:33:13-64
+105            android:value="true" />
+105-->[:react-native-firebase_messaging] /Users/vyshnavajayan/gtrackit_mobile_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:13-33
+106        <meta-data
+106-->[:react-native-firebase_messaging] /Users/vyshnavajayan/gtrackit_mobile_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:9-37:32
+107            android:name="com.google.firebase.messaging.default_notification_channel_id"
+107-->[:react-native-firebase_messaging] /Users/vyshnavajayan/gtrackit_mobile_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-89
+108            android:value="" />
+108-->[:react-native-firebase_messaging] /Users/vyshnavajayan/gtrackit_mobile_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:13-29
+109        <meta-data
+109-->[:react-native-firebase_messaging] /Users/vyshnavajayan/gtrackit_mobile_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:9-40:47
+110            android:name="com.google.firebase.messaging.default_notification_color"
+110-->[:react-native-firebase_messaging] /Users/vyshnavajayan/gtrackit_mobile_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:39:13-84
+111            android:resource="@color/white" />
+111-->[:react-native-firebase_messaging] /Users/vyshnavajayan/gtrackit_mobile_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:40:13-44
+112
+113        <receiver
+113-->[:react-native-device-info] /Users/vyshnavajayan/gtrackit_mobile_app/node_modules/react-native-device-info/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:9-19:20
+114            android:name="com.learnium.RNDeviceInfo.RNDeviceReceiver"
+114-->[:react-native-device-info] /Users/vyshnavajayan/gtrackit_mobile_app/node_modules/react-native-device-info/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-70
+115            android:enabled="true"
+115-->[:react-native-device-info] /Users/vyshnavajayan/gtrackit_mobile_app/node_modules/react-native-device-info/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-35
+116            android:exported="true" >
+116-->[:react-native-device-info] /Users/vyshnavajayan/gtrackit_mobile_app/node_modules/react-native-device-info/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-36
+117            <intent-filter>
+117-->[:react-native-device-info] /Users/vyshnavajayan/gtrackit_mobile_app/node_modules/react-native-device-info/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-18:29
+118                <action android:name="com.android.vending.INSTALL_REFERRER" />
+118-->[:react-native-device-info] /Users/vyshnavajayan/gtrackit_mobile_app/node_modules/react-native-device-info/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-79
+118-->[:react-native-device-info] /Users/vyshnavajayan/gtrackit_mobile_app/node_modules/react-native-device-info/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:25-76
+119            </intent-filter>
+120        </receiver>
+121
+122        <provider
+122-->[:react-native-share] /Users/vyshnavajayan/gtrackit_mobile_app/node_modules/react-native-share/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-20:20
+123            android:name="cl.json.RNShareFileProvider"
+123-->[:react-native-share] /Users/vyshnavajayan/gtrackit_mobile_app/node_modules/react-native-share/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-55
+124            android:authorities="com.gtrackit.rnshare.fileprovider"
+124-->[:react-native-share] /Users/vyshnavajayan/gtrackit_mobile_app/node_modules/react-native-share/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-72
+125            android:exported="false"
+125-->[:react-native-share] /Users/vyshnavajayan/gtrackit_mobile_app/node_modules/react-native-share/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-37
+126            android:grantUriPermissions="true" >
+126-->[:react-native-share] /Users/vyshnavajayan/gtrackit_mobile_app/node_modules/react-native-share/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-47
+127            <meta-data
+127-->[:react-native-share] /Users/vyshnavajayan/gtrackit_mobile_app/node_modules/react-native-share/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-19:64
+128                android:name="android.support.FILE_PROVIDER_PATHS"
+128-->[:react-native-share] /Users/vyshnavajayan/gtrackit_mobile_app/node_modules/react-native-share/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:17-67
+129                android:resource="@xml/share_download_paths" />
+129-->[:react-native-share] /Users/vyshnavajayan/gtrackit_mobile_app/node_modules/react-native-share/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:17-61
+130        </provider>
+131        <provider
+131-->[:react-native-webview] /Users/vyshnavajayan/gtrackit_mobile_app/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+132            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+132-->[:react-native-webview] /Users/vyshnavajayan/gtrackit_mobile_app/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-83
+133            android:authorities="com.gtrackit.fileprovider"
+133-->[:react-native-webview] /Users/vyshnavajayan/gtrackit_mobile_app/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-64
+134            android:exported="false"
+134-->[:react-native-webview] /Users/vyshnavajayan/gtrackit_mobile_app/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+135            android:grantUriPermissions="true" >
+135-->[:react-native-webview] /Users/vyshnavajayan/gtrackit_mobile_app/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+136            <meta-data
+136-->[:react-native-share] /Users/vyshnavajayan/gtrackit_mobile_app/node_modules/react-native-share/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-19:64
+137                android:name="android.support.FILE_PROVIDER_PATHS"
+137-->[:react-native-share] /Users/vyshnavajayan/gtrackit_mobile_app/node_modules/react-native-share/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:17-67
+138                android:resource="@xml/file_provider_paths" />
+138-->[:react-native-share] /Users/vyshnavajayan/gtrackit_mobile_app/node_modules/react-native-share/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:17-61
+139        </provider>
+140
+141        <receiver
+141-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/ab445c55110d91d70751e1b4a92873d9/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:29:9-33:20
+142            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+142-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/ab445c55110d91d70751e1b4a92873d9/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:30:13-85
+143            android:enabled="true"
+143-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/ab445c55110d91d70751e1b4a92873d9/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:31:13-35
+144            android:exported="false" >
+144-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/ab445c55110d91d70751e1b4a92873d9/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:32:13-37
+145        </receiver>
+146
+147        <service
+147-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/ab445c55110d91d70751e1b4a92873d9/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:35:9-38:40
+148            android:name="com.google.android.gms.measurement.AppMeasurementService"
+148-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/ab445c55110d91d70751e1b4a92873d9/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:36:13-84
+149            android:enabled="true"
+149-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/ab445c55110d91d70751e1b4a92873d9/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:37:13-35
+150            android:exported="false" />
+150-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/ab445c55110d91d70751e1b4a92873d9/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:38:13-37
+151        <service
+151-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/ab445c55110d91d70751e1b4a92873d9/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:39:9-43:72
+152            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+152-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/ab445c55110d91d70751e1b4a92873d9/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:40:13-87
+153            android:enabled="true"
+153-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/ab445c55110d91d70751e1b4a92873d9/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:41:13-35
+154            android:exported="false"
+154-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/ab445c55110d91d70751e1b4a92873d9/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:42:13-37
+155            android:permission="android.permission.BIND_JOB_SERVICE" />
+155-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/ab445c55110d91d70751e1b4a92873d9/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:43:13-69
+156        <service
+156-->[com.google.android.gms:play-services-measurement-api:17.6.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/34b7e5bedafa6438106d168d82bbcd49/jetified-play-services-measurement-api-17.6.0/AndroidManifest.xml:27:9-33:19
+157            android:name="com.google.firebase.components.ComponentDiscoveryService"
+157-->[com.google.android.gms:play-services-measurement-api:17.6.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/34b7e5bedafa6438106d168d82bbcd49/jetified-play-services-measurement-api-17.6.0/AndroidManifest.xml:28:13-84
+158            android:directBootAware="true"
+158-->[com.google.firebase:firebase-common:19.3.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/e4c0e6bbf566f5b5a10d5c1a798cba58/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+159            android:exported="false" >
+159-->[com.google.android.gms:play-services-measurement-api:17.6.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/34b7e5bedafa6438106d168d82bbcd49/jetified-play-services-measurement-api-17.6.0/AndroidManifest.xml:29:13-37
+160            <meta-data
+160-->[com.google.android.gms:play-services-measurement-api:17.6.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/34b7e5bedafa6438106d168d82bbcd49/jetified-play-services-measurement-api-17.6.0/AndroidManifest.xml:30:13-32:85
+161                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+161-->[com.google.android.gms:play-services-measurement-api:17.6.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/34b7e5bedafa6438106d168d82bbcd49/jetified-play-services-measurement-api-17.6.0/AndroidManifest.xml:31:17-139
+162                android:value="com.google.firebase.components.ComponentRegistrar" />
+162-->[com.google.android.gms:play-services-measurement-api:17.6.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/34b7e5bedafa6438106d168d82bbcd49/jetified-play-services-measurement-api-17.6.0/AndroidManifest.xml:32:17-82
+163            <meta-data
+163-->[com.google.firebase:firebase-messaging:20.3.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/a92f3997fb085c9df661dc563d073372/jetified-firebase-messaging-20.3.0/AndroidManifest.xml:39:13-41:85
+164                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+164-->[com.google.firebase:firebase-messaging:20.3.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/a92f3997fb085c9df661dc563d073372/jetified-firebase-messaging-20.3.0/AndroidManifest.xml:40:17-119
+165                android:value="com.google.firebase.components.ComponentRegistrar" />
+165-->[com.google.firebase:firebase-messaging:20.3.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/a92f3997fb085c9df661dc563d073372/jetified-firebase-messaging-20.3.0/AndroidManifest.xml:41:17-82
+166            <meta-data
+166-->[com.google.firebase:firebase-iid:20.3.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/3e0030fd5a44d82f0f9baf876fe55d56/jetified-firebase-iid-20.3.0/AndroidManifest.xml:32:13-34:85
+167                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+167-->[com.google.firebase:firebase-iid:20.3.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/3e0030fd5a44d82f0f9baf876fe55d56/jetified-firebase-iid-20.3.0/AndroidManifest.xml:33:17-96
+168                android:value="com.google.firebase.components.ComponentRegistrar" />
+168-->[com.google.firebase:firebase-iid:20.3.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/3e0030fd5a44d82f0f9baf876fe55d56/jetified-firebase-iid-20.3.0/AndroidManifest.xml:34:17-82
+169            <meta-data
+169-->[com.google.firebase:firebase-datatransport:17.0.3] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/b83f9136c1e1cbed3fa8cd3f11111118/jetified-firebase-datatransport-17.0.3/AndroidManifest.xml:28:13-30:85
+170                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+170-->[com.google.firebase:firebase-datatransport:17.0.3] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/b83f9136c1e1cbed3fa8cd3f11111118/jetified-firebase-datatransport-17.0.3/AndroidManifest.xml:29:17-115
+171                android:value="com.google.firebase.components.ComponentRegistrar" />
+171-->[com.google.firebase:firebase-datatransport:17.0.3] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/b83f9136c1e1cbed3fa8cd3f11111118/jetified-firebase-datatransport-17.0.3/AndroidManifest.xml:30:17-82
+172            <meta-data
+172-->[com.google.firebase:firebase-installations:16.3.3] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/9229ddf2b6e6dd7793919a89f8ddf1f3/jetified-firebase-installations-16.3.3/AndroidManifest.xml:17:13-19:85
+173                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+173-->[com.google.firebase:firebase-installations:16.3.3] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/9229ddf2b6e6dd7793919a89f8ddf1f3/jetified-firebase-installations-16.3.3/AndroidManifest.xml:18:17-127
+174                android:value="com.google.firebase.components.ComponentRegistrar" />
+174-->[com.google.firebase:firebase-installations:16.3.3] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/9229ddf2b6e6dd7793919a89f8ddf1f3/jetified-firebase-installations-16.3.3/AndroidManifest.xml:19:17-82
+175        </service>
+176
+177        <activity
+177-->[com.google.android.gms:play-services-auth:18.1.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/b2bed126ceae8c1c90730d6b33ea87ae/jetified-play-services-auth-18.1.0/AndroidManifest.xml:23:9-27:75
+178            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+178-->[com.google.android.gms:play-services-auth:18.1.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/b2bed126ceae8c1c90730d6b33ea87ae/jetified-play-services-auth-18.1.0/AndroidManifest.xml:24:13-93
+179            android:excludeFromRecents="true"
+179-->[com.google.android.gms:play-services-auth:18.1.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/b2bed126ceae8c1c90730d6b33ea87ae/jetified-play-services-auth-18.1.0/AndroidManifest.xml:25:13-46
+180            android:exported="false"
+180-->[com.google.android.gms:play-services-auth:18.1.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/b2bed126ceae8c1c90730d6b33ea87ae/jetified-play-services-auth-18.1.0/AndroidManifest.xml:26:13-37
+181            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+181-->[com.google.android.gms:play-services-auth:18.1.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/b2bed126ceae8c1c90730d6b33ea87ae/jetified-play-services-auth-18.1.0/AndroidManifest.xml:27:13-72
+182        <!--
+183            Service handling Google Sign-In user revocation. For apps that do not integrate with
+184            Google Sign-In, this service will never be started.
+185        -->
+186        <service
+186-->[com.google.android.gms:play-services-auth:18.1.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/b2bed126ceae8c1c90730d6b33ea87ae/jetified-play-services-auth-18.1.0/AndroidManifest.xml:33:9-37:51
+187            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+187-->[com.google.android.gms:play-services-auth:18.1.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/b2bed126ceae8c1c90730d6b33ea87ae/jetified-play-services-auth-18.1.0/AndroidManifest.xml:34:13-89
+188            android:exported="true"
+188-->[com.google.android.gms:play-services-auth:18.1.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/b2bed126ceae8c1c90730d6b33ea87ae/jetified-play-services-auth-18.1.0/AndroidManifest.xml:35:13-36
+189            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+189-->[com.google.android.gms:play-services-auth:18.1.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/b2bed126ceae8c1c90730d6b33ea87ae/jetified-play-services-auth-18.1.0/AndroidManifest.xml:36:13-107
+190            android:visibleToInstantApps="true" />
+190-->[com.google.android.gms:play-services-auth:18.1.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/b2bed126ceae8c1c90730d6b33ea87ae/jetified-play-services-auth-18.1.0/AndroidManifest.xml:37:13-48
+191        <!--
+192             FirebaseMessagingService performs security checks at runtime,
+193             but set to not exported to explicitly avoid allowing another app to call it.
+194        -->
+195        <service
+195-->[com.google.firebase:firebase-messaging:20.3.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/a92f3997fb085c9df661dc563d073372/jetified-firebase-messaging-20.3.0/AndroidManifest.xml:28:9-35:19
+196            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+196-->[com.google.firebase:firebase-messaging:20.3.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/a92f3997fb085c9df661dc563d073372/jetified-firebase-messaging-20.3.0/AndroidManifest.xml:29:13-82
+197            android:directBootAware="true"
+197-->[com.google.firebase:firebase-messaging:20.3.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/a92f3997fb085c9df661dc563d073372/jetified-firebase-messaging-20.3.0/AndroidManifest.xml:30:13-43
+198            android:exported="false" >
+198-->[com.google.firebase:firebase-messaging:20.3.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/a92f3997fb085c9df661dc563d073372/jetified-firebase-messaging-20.3.0/AndroidManifest.xml:31:13-37
+199            <intent-filter android:priority="-500" >
+199-->/Users/vyshnavajayan/gtrackit_mobile_app/android/app/src/main/AndroidManifest.xml:45:13-47:29
+200                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+200-->/Users/vyshnavajayan/gtrackit_mobile_app/android/app/src/main/AndroidManifest.xml:46:17-78
+200-->/Users/vyshnavajayan/gtrackit_mobile_app/android/app/src/main/AndroidManifest.xml:46:25-75
+201            </intent-filter>
+202        </service>
+203
+204        <receiver
+204-->[com.google.firebase:firebase-iid:20.3.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/3e0030fd5a44d82f0f9baf876fe55d56/jetified-firebase-iid-20.3.0/AndroidManifest.xml:37:9-44:20
+205            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+205-->[com.google.firebase:firebase-iid:20.3.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/3e0030fd5a44d82f0f9baf876fe55d56/jetified-firebase-iid-20.3.0/AndroidManifest.xml:38:13-78
+206            android:exported="true"
+206-->[com.google.firebase:firebase-iid:20.3.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/3e0030fd5a44d82f0f9baf876fe55d56/jetified-firebase-iid-20.3.0/AndroidManifest.xml:39:13-36
+207            android:permission="com.google.android.c2dm.permission.SEND" >
+207-->[com.google.firebase:firebase-iid:20.3.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/3e0030fd5a44d82f0f9baf876fe55d56/jetified-firebase-iid-20.3.0/AndroidManifest.xml:40:13-73
+208            <intent-filter>
+208-->[:react-native-firebase_messaging] /Users/vyshnavajayan/gtrackit_mobile_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-29:29
+209                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+209-->[:react-native-firebase_messaging] /Users/vyshnavajayan/gtrackit_mobile_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:17-81
+209-->[:react-native-firebase_messaging] /Users/vyshnavajayan/gtrackit_mobile_app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:25-78
+210            </intent-filter>
+211        </receiver>
+212
+213        <activity
+213-->[com.google.android.gms:play-services-base:17.1.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/1f4fbf5a6017e580cae8f805e3f74358/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+214            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+214-->[com.google.android.gms:play-services-base:17.1.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/1f4fbf5a6017e580cae8f805e3f74358/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+215            android:exported="false"
+215-->[com.google.android.gms:play-services-base:17.1.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/1f4fbf5a6017e580cae8f805e3f74358/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+216            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+216-->[com.google.android.gms:play-services-base:17.1.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/1f4fbf5a6017e580cae8f805e3f74358/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+217
+218        <provider
+218-->[com.google.firebase:firebase-common:19.3.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/e4c0e6bbf566f5b5a10d5c1a798cba58/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+219            android:name="com.google.firebase.provider.FirebaseInitProvider"
+219-->[com.google.firebase:firebase-common:19.3.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/e4c0e6bbf566f5b5a10d5c1a798cba58/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+220            android:authorities="com.gtrackit.firebaseinitprovider"
+220-->[com.google.firebase:firebase-common:19.3.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/e4c0e6bbf566f5b5a10d5c1a798cba58/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+221            android:exported="false"
+221-->[com.google.firebase:firebase-common:19.3.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/e4c0e6bbf566f5b5a10d5c1a798cba58/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+222            android:initOrder="100" />
+222-->[com.google.firebase:firebase-common:19.3.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/e4c0e6bbf566f5b5a10d5c1a798cba58/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+223
+224        <meta-data
+224-->[com.google.android.gms:play-services-basement:17.1.1] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/b422d45bd4bbd8dd38f6123b11cdb391/jetified-play-services-basement-17.1.1/AndroidManifest.xml:23:9-25:69
+225            android:name="com.google.android.gms.version"
+225-->[com.google.android.gms:play-services-basement:17.1.1] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/b422d45bd4bbd8dd38f6123b11cdb391/jetified-play-services-basement-17.1.1/AndroidManifest.xml:24:13-58
+226            android:value="@integer/google_play_services_version" />
+226-->[com.google.android.gms:play-services-basement:17.1.1] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/b422d45bd4bbd8dd38f6123b11cdb391/jetified-play-services-basement-17.1.1/AndroidManifest.xml:25:13-66
+227
+228        <service
+228-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/5a40d8d651a76a312dc6094dd8c36549/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:29:9-35:19
+229            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+229-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/5a40d8d651a76a312dc6094dd8c36549/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:30:13-103
+230            android:exported="false" >
+230-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/5a40d8d651a76a312dc6094dd8c36549/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:31:13-37
+231            <meta-data
+231-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/5a40d8d651a76a312dc6094dd8c36549/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:32:13-34:39
+232                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+232-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/5a40d8d651a76a312dc6094dd8c36549/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:33:17-94
+233                android:value="cct" />
+233-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/5a40d8d651a76a312dc6094dd8c36549/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:34:17-36
+234        </service>
+235        <service
+235-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/e26fa331ad423be66386e2fca073ea26/jetified-transport-runtime-2.2.0/AndroidManifest.xml:26:9-30:19
+236            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+236-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/e26fa331ad423be66386e2fca073ea26/jetified-transport-runtime-2.2.0/AndroidManifest.xml:27:13-117
+237            android:exported="false"
+237-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/e26fa331ad423be66386e2fca073ea26/jetified-transport-runtime-2.2.0/AndroidManifest.xml:28:13-37
+238            android:permission="android.permission.BIND_JOB_SERVICE" >
+238-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/e26fa331ad423be66386e2fca073ea26/jetified-transport-runtime-2.2.0/AndroidManifest.xml:29:13-69
+239        </service>
+240
+241        <receiver
+241-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/e26fa331ad423be66386e2fca073ea26/jetified-transport-runtime-2.2.0/AndroidManifest.xml:32:9-34:40
+242            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+242-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/e26fa331ad423be66386e2fca073ea26/jetified-transport-runtime-2.2.0/AndroidManifest.xml:33:13-132
+243            android:exported="false" />
+243-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/vyshnavajayan/.gradle/caches/transforms-2/files-2.1/e26fa331ad423be66386e2fca073ea26/jetified-transport-runtime-2.2.0/AndroidManifest.xml:34:13-37
+244    </application>
+245
+246</manifest>
