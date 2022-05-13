@@ -107,8 +107,8 @@ class Login extends Component {
             source={require('../../assets/Images/pic/MapBackground.png')}
             resizeMode={'cover'}>
             <View
-              style={{flex: 1, backgroundColor: '#ffffff'}}
-              opacity={0.9}>
+              style={{flex: 1, backgroundColor: 'rgba(255, 255, 255, 0.9)'}}
+              >
               <StatusBar
                 backgroundColor={'#144072'}
                 barStyle="light-content"
