@@ -20,6 +20,7 @@ import {
 const platform = Platform.OS;
 import Search from '../screens/search';
 import Login from '../screens/login';
+import Splash from '../screens/splash';
 import WebView from '../screens/login/webView';
 import Home from '../screens/home';
 import VehicleDetailPage from '../screens/home/vehicleDetailPage';
@@ -150,7 +151,7 @@ class RootNavigator extends React.Component {
                   headerShown: false,
                 }}
               />
-               <Stack.Screen
+              <Stack.Screen
                 name="NotificationView"
                 component={NotificationView}
                 options={{
@@ -158,26 +159,29 @@ class RootNavigator extends React.Component {
                 }}
               />
               <Stack.Screen
-              name="NotificationList"
-              component={NotificationList}
-              options={{
-                headerShown: false,
-              }}
-            />
-            <Stack.Screen
-              name="NotificationListView"
-              component={NotificationListView}
-              options={{
-                headerShown: false,
-              }}
-            />
+                name="NotificationList"
+                component={NotificationList}
+                options={{
+                  headerShown: false,
+                }}
+              />
+              <Stack.Screen
+                name="NotificationListView"
+                component={NotificationListView}
+                options={{
+                  headerShown: false,
+                }}
+              />
             </>
           ) : (
             <>
-              {/* <Stack.Screen name="Splash" component={Splash} 
-          options={{
-          headerShown:false
-          }}/> */}
+              <Stack.Screen
+                name="Splash"
+                component={Splash}
+                options={{
+                  headerShown: false,
+                }}
+              />
               <Stack.Screen
                 name="Login"
                 component={Login}

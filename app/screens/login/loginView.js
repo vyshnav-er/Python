@@ -9,6 +9,7 @@ import {
   ScrollView,
   Alert,
   SafeAreaView,
+  FlatList,
   TouchableOpacity,
   StatusBar,
   ImageBackground
@@ -107,16 +108,15 @@ class Login extends Component {
             resizeMode={'cover'}>
             <View
               style={{flex: 1, backgroundColor: '#ffffff'}}
-              opacity={0.9}>
-              <StatusBar
-                backgroundColor={'#144072'}
+              opacity={0.6}>
+              {/* <StatusBar
+                backgroundColor={AppStyles.colors.COLOR_PRIMARY}
                 barStyle="light-content"
-              />
-              <View
-                style={{
-                  width: '100%',
-                  // backgroundColor: 'red'
-                }}>
+                hidden={true}
+              /> */}
+              <View style={{width: '100%', 
+                    // backgroundColor: 'red'
+                    }}>
                 <HeaderImage
                   height={moderateScale(255)}
                   width={metrics.SCREEN_WIDTH}
@@ -129,13 +129,6 @@ class Login extends Component {
                   }}
                 />
               )}
-              <ScrollView
-                keyboardShouldPersistTaps={'always'}
-                style={{
-                  paddingHorizontal: moderateScale(20),
-                  // backgroundColor: 'white',
-                }}
-                showsVerticalScrollIndicator={false}>
               <View style={styles.welcomeBox}>
                 <Text
                   style={{
@@ -162,7 +155,13 @@ class Login extends Component {
                   G-Trackit
                 </Text> */}
               </View>
-              
+              <ScrollView
+                keyboardShouldPersistTaps={'always'}
+                style={{
+                  paddingHorizontal: moderateScale(20),
+                  // backgroundColor: 'white',
+                }}
+                showsVerticalScrollIndicator={false}>
                 {this.props.ISLogin.failed && (
                   <Text style={styles.errorText}>
                     Wrong username or password. Please retry

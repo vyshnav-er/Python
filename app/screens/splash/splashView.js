@@ -9,13 +9,16 @@ import {
   Text,
   StatusBar,
   TouchableOpacity,
-  FlatList,
+  ImageBackground
 } from 'react-native';
 import {moderateScale} from 'react-native-size-matters';
 import Toast from 'react-native-simple-toast';
 import AppStyles from '../../config/styles';
 import NetInfo from '@react-native-community/netinfo';
 import styles from './styles';
+import metrics from '../../config/metrics';
+import Logo from '../../config/logo';
+import HeaderImage from '../../config/headerImage';
 class splash extends Component {
   componentDidMount = () => {
     setTimeout(() => {
@@ -32,20 +35,37 @@ class splash extends Component {
 
   render() {
     return (
-      <SafeAreaView style={styles.container}>
-        <StatusBar
-          backgroundColor={AppStyles.colors.COLOR_WHITE}
-          barStyle="dark-content"
-        />
-        <View style={styles.contentContainer}>
-          <View />
-          <Image
-            style={styles.Logo}
-            resizeMode={'cover'}
-            source={require('../../assets/Images/pic/Logo.jpeg')}
-          />
-          <Text style={styles.textStyle}>Powered By ZaeemSolutions</Text>
-        </View>
+      <SafeAreaView style={{flex: 1}}>
+        <StatusBar backgroundColor={'#144072'} barStyle="light-content" />
+        <ImageBackground
+          style={{flex: 1}}
+          position="absolute"
+          source={require('../../assets/Images/pic/MapBackground.png')}
+          resizeMode={'cover'}>
+          <View style={{flex: 1, backgroundColor: '#FFFFFF60'}}>
+            <View
+              style={{
+                flex: 1,
+                alignItems: 'flex-start',
+                justifyContent: 'flex-start',
+              }}>
+              <HeaderImage
+                height={moderateScale(255)}
+                width={metrics.SCREEN_WIDTH}
+              />
+            </View>
+
+            <View
+              style={{
+                height: '100%',
+                flex: 3,
+                alignItems: 'center',
+                justifyContent: 'center',
+              }}>
+              <Logo height={moderateScale(75)} width={moderateScale(226)} />
+            </View>
+          </View>
+        </ImageBackground>
       </SafeAreaView>
     );
   }
